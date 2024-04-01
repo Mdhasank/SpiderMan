@@ -3,6 +3,8 @@
     font-family: 'Josefin Sans', sans-serif;
     margin: 0%;
     padding: 0%;
+    scroll-behavior:smooth;
+    
   }
   body{
     margin: 0%;
@@ -13,10 +15,7 @@
     background-size: cover;
     background-position: top right;
   }
-/* #logo{
-  background-image: url(logo.jpg);
-  width: 7.5vw;
-} */
+
 #logo{
   width:7vmax;
     
@@ -101,15 +100,10 @@ h1{
   letter-spacing: 1.5px;
   line-height: 1.3em;
 }
-/* @media only screen and (max-width:1024px){
-  #bio{
-    width: 35%;
-  }
-  #quote p{
-    padding: 0 1em;
-  }
-}*/
-@media only screen and (max-width:724px){
+
+/* Responsive */
+
+@media only screen and (min-width:724px){
   #bio{
     width: 40%;
   }
@@ -117,17 +111,11 @@ h1{
     width: 40%;
   }
 }
-@media only screen and (max-width:524px){
+@media only screen and (max-width:723px){
   #bio{
-    width: 60%;
+    width: 50%;
   }
   #quote{
     width: 60%;
   }
-  /* h1{
-    font-size: 6vw;
-  }
-  p{
-    font-size: 3.4vw;
-  } */
 }
