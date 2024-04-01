@@ -1,0 +1,133 @@
+
+  *{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+  }
+  body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(sp1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+  }
+/* #logo{
+  background-image: url(logo.jpg);
+  width: 7.5vw;
+} */
+#logo{
+  width:7vmax;
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #000000;
+    position: fixed;
+    z-index: 99;
+    min-height: 10vh;
+}
+nav ul{
+  display: flex;
+}
+nav ul li{
+  list-style: none;
+  margin: 0 1em;
+  
+}
+nav ul li a{
+  font-size:2vmax;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+/* head nav ends here */
+.container{
+  background-image: url(wp7213806.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  min-height: 100vh;
+  background-attachment: fixed;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-top: 50vh;
+  background-position: center;
+}
+h1{
+  color: aliceblue;
+  font-size: 7vmin;
+  padding: 4vw 2vw;
+}
+#quote{
+  position:absolute;
+  width: 25%;
+  color: aliceblue;
+  text-align: center;
+  margin: 0 4vw 5vw 0;
+}
+#quote p{
+  font-size: 3.6vmin;
+    letter-spacing: 1.5px;
+    line-height: 1.3em;
+    padding: 0vw 2vw;
+}
+#contain-bio{
+  display: flex;
+  justify-content: flex-start;
+  padding: 80vh 0vw 8vh 3vw;
+}
+#bio{
+  align-items: center;
+  width: 30%;
+  color: aliceblue;
+  backdrop-filter: blur(8px);
+  border-radius: 1vw;
+  border: 0px solid black;
+}
+#bio h1{
+  text-align: center;
+  padding: 6vmin 1.2vmin;
+}
+#bio p{
+  padding: 0 5.5vmin 3vmin 5.5vmin;
+  font-size: 2.4vmin;
+  letter-spacing: 1.5px;
+  line-height: 1.3em;
+}
+/* @media only screen and (max-width:1024px){
+  #bio{
+    width: 35%;
+  }
+  #quote p{
+    padding: 0 1em;
+  }
+}*/
+@media only screen and (max-width:724px){
+  #bio{
+    width: 40%;
+  }
+  #quote{
+    width: 40%;
+  }
+}
+@media only screen and (max-width:524px){
+  #bio{
+    width: 60%;
+  }
+  #quote{
+    width: 60%;
+  }
+  /* h1{
+    font-size: 6vw;
+  }
+  p{
+    font-size: 3.4vw;
+  } */
+}
